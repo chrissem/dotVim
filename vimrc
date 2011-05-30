@@ -5,6 +5,9 @@ call pathogen#helptags()
 "enable file type detection
 filetype on
 
+"set colorscheme
+colorscheme desert
+
 " set UTF-8 encoding
 set enc=utf-8
 set fenc=utf-8
@@ -25,7 +28,7 @@ set shiftwidth=4     " indent also with 4 spaces
 set expandtab        " expand tabs to spaces
 
 " wrap lines at 120 chars. 80 is somewaht antiquated with nowadays displays.
-set textwidth=120
+" set textwidth=120
 
 " turn syntax highlighting on
 "set t_Co=256
@@ -38,3 +41,5 @@ set number
 " highlight matching braces
 set showmatch
 
+" python settings
+autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
