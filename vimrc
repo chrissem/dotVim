@@ -43,3 +43,7 @@ set showmatch
 
 " python settings
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
+
+" source local settings
+source ~/.vim/vimrc.local
+
