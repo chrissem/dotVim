@@ -2,6 +2,7 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+" disable vi compatability (emulation of old bugs)
 set nocompatible
 
 let mapleader=","
@@ -28,8 +29,6 @@ nmap <silent><Leader>tn <Esc>:Pytest next<CR>
 nmap <silent><Leader>tp <Esc>:Pytest previous<CR>
 nmap <silent><Leader>te <Esc>:Pytest error<CR>
 
-" disable vi compatability (emulation of old bugs)
-set nocompatible
 
 "enable file type detection
 filetype on
@@ -63,6 +62,7 @@ syntax on
 
 " turn line numbers on
 set number
+set cursorline
 
 " highlight matching braces
 set showmatch
