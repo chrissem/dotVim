@@ -84,3 +84,4 @@ map <leader>g :GundoToggle<CR>
 
 " makegreen
 map <Leader>c <Plug>MakeGreen
+
