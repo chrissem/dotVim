@@ -29,6 +29,7 @@ nmap <silent><Leader>tn <Esc>:Pytest next<CR>
 nmap <silent><Leader>tp <Esc>:Pytest previous<CR>
 nmap <silent><Leader>te <Esc>:Pytest error<CR>
 
+
 "enable file type detection
 filetype on
 filetype plugin indent on
@@ -68,7 +69,7 @@ set showmatch
 
 " python settings
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
-autocmd FileType python set omnifunc=pythoncomplete#Complete
+au FileType python set omnifunc=pythoncomplete#Complete
 "let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
 
