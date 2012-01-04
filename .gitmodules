@@ -30,10 +30,6 @@
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
     ignore = dirty
-[submodule "bundle/minibufexpl"]
-	path = bundle/minibufexpl
-	url = https://github.com/sontek/minibufexpl.vim.git
-    ignore = dirty
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = https://github.com/wincent/Command-T.git
@@ -77,3 +73,6 @@
 [submodule "bundle/conque-term"]
 	path = bundle/conque-term
 	url = https://github.com/rosenfeld/conque-term.git
+[submodule "bundle/nose.vim"]
+	path = bundle/nose.vim
+	url = https://github.com/lambdalisue/nose.vim.git

@@ -5,6 +5,9 @@ call pathogen#helptags()
 " disable vi compatability (emulation of old bugs)
 set nocompatible
 
+" pyflakes
+let g:pyflakes_use_quickfix = 0
+
 "enable file type detection
 filetype on
 filetype plugin indent on
@@ -85,5 +88,5 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 map <leader>g :GundoToggle<CR>
 
 " makegreen
-map <Leader>tt <Plug>MakeGreen
-
+" map <leader>dt :set makeprg=nosetests\|:call MakeGreen()<CR>
+map <silent><Leader>t <Esc>:call MakeGreen()<cr>
