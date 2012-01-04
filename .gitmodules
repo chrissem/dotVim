@@ -73,6 +73,8 @@
 [submodule "bundle/conque-term"]
 	path = bundle/conque-term
 	url = https://github.com/rosenfeld/conque-term.git
+    ignore = dirty
 [submodule "bundle/nose.vim"]
 	path = bundle/nose.vim
 	url = https://github.com/lambdalisue/nose.vim.git
+    ignore = dirty
