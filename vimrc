@@ -5,9 +5,13 @@ call pathogen#helptags()
 " disable vi compatability (emulation of old bugs)
 set nocompatible
 
+"enable file type detection
+filetype on
+filetype plugin indent on
+
 let mapleader=","
 
-set foldmethod=indent
+set foldmethod=syntax
 set foldlevel=99
 
 map <c-j> <c-w>j
@@ -28,11 +32,6 @@ nmap <silent><Leader>tm <Esc>:Pytest method<CR>
 nmap <silent><Leader>tn <Esc>:Pytest next<CR>
 nmap <silent><Leader>tp <Esc>:Pytest previous<CR>
 nmap <silent><Leader>te <Esc>:Pytest error<CR>
-
-
-"enable file type detection
-filetype on
-filetype plugin indent on
 
 "set colorscheme
 colorscheme desert
@@ -70,6 +69,9 @@ set showmatch
 " python settings
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 autocmd FileType python set omnifunc=pythoncomplete#Complete
+"autocmd FileType python nmap <buffer> <F5> :w<CR>:!/usr/bin/env python % <CR>" 
+autocmd BufRead *.py nmap <F5> :!python %<CR>
+"
 "let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
 
@@ -83,5 +85,5 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 map <leader>g :GundoToggle<CR>
 
 " makegreen
-map <Leader>c <Plug>MakeGreen
+map <Leader>tt <Plug>MakeGreen
 
