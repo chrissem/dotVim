@@ -18,10 +18,6 @@
 	path = bundle/vcscommand
 	url = git://repo.or.cz/vcscommand.git
     ignore = dirty
-[submodule "bundle/commentary"]
-	path = bundle/commentary
-	url = git://github.com/tpope/vim-commentary.git
-    ignore = dirty
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = git://github.com/tpope/vim-surround.git
@@ -62,10 +58,6 @@
 	path = bundle/tasklist
 	url = https://github.com/vim-scripts/TaskList.vim.git
     ignore = dirty
-[submodule "bundle/colors-solarized"]
-	path = bundle/colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized
-    ignore = dirty
 [submodule "bundle/pyflakes"]
 	path = bundle/pyflakes
 	url = https://github.com/mitechie/pyflakes-pathogen.git
@@ -81,3 +73,7 @@
 [submodule "bundle/rope-vim"]
 	path = bundle/rope-vim
 	url = https://github.com/klen/rope-vim.git
+    ignore = dirty
+[submodule "bundle/conque-term"]
+	path = bundle/conque-term
+	url = https://github.com/rosenfeld/conque-term.git
