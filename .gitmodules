@@ -78,7 +78,3 @@
 	path = bundle/minibufexpl.vim
 	url = https://github.com/fholgado/minibufexpl.vim.git
     ignore = dirty
-[submodule "bundle/ultisnips"]
-	path = bundle/ultisnips
-	url = https://github.com/rygwdn/ultisnips.git
-    ignore = dirty
