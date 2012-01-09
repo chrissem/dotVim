@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/chrism/Documents/leucocyte tracking/boyer_2009_leucocyte_tracking_cuda/cuda/Leukocyte/meschach_lib'
-let g:netrw_dirhist_2='/Users/chrism/libs/pymatlab-0.1.3/build'
-let g:netrw_dirhist_3='/Users/chrism/libs/pymatlab-0.1.3/build/temp.macosx-10.5-intel-2.7'
-let g:netrw_dirhist_4='/Users/chrism/tmp/test'
-let g:netrw_dirhist_5='/Users/chrism/tmp/pytest-tutorial1/2/myscan'
-let g:netrw_dirhist_6='/Users/chrism/tmp/pytest-tutorial1/7/myscan'
-let g:netrw_dirhist_7='/Users/chrism/tmp/pytest-tutorial1/5/test'
