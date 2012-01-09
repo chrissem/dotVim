@@ -29,12 +29,12 @@ map <leader>td <Plug>TaskList
 let g:pep8_map='<leader>8'
 
 " run py.test's
-nmap <silent><Leader>tf <Esc>:Pytest file<CR>
-nmap <silent><Leader>tc <Esc>:Pytest class<CR>
-nmap <silent><Leader>tm <Esc>:Pytest method<CR>
-nmap <silent><Leader>tn <Esc>:Pytest next<CR>
-nmap <silent><Leader>tp <Esc>:Pytest previous<CR>
-nmap <silent><Leader>te <Esc>:Pytest error<CR>
+"nmap <silent><Leader>tf <Esc>:Pytest file<CR>
+"nmap <silent><Leader>tc <Esc>:Pytest class<CR>
+"nmap <silent><Leader>tm <Esc>:Pytest method<CR>
+"nmap <silent><Leader>tn <Esc>:Pytest next<CR>
+"nmap <silent><Leader>tp <Esc>:Pytest previous<CR>
+"nmap <silent><Leader>te <Esc>:Pytest error<CR>
 
 "set colorscheme
 colorscheme desert
@@ -88,5 +88,6 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 map <leader>g :GundoToggle<CR>
 
 " makegreen
-" map <leader>dt :set makeprg=nosetests\|:call MakeGreen()<CR>
-map <silent><Leader>t <Esc>:call MakeGreen()<cr>
+autocmd BufNewFile,BufRead *.py compiler nose
+map <silent><Leader>mk <Esc>:call MakeGreen()<cr>
+

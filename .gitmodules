@@ -2,10 +2,6 @@
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
     ignore = dirty
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
-	url = http://github.com/msanders/snipmate.vim
-    ignore = dirty
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
@@ -85,3 +81,4 @@
 [submodule "bundle/ultisnips"]
 	path = bundle/ultisnips
 	url = https://github.com/rygwdn/ultisnips.git
+    ignore = dirty
